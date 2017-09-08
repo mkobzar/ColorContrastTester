@@ -220,9 +220,10 @@ namespace ColorContrastTester
             {
                 var luminance1 = GetLums(color1);
                 var luminance2 = GetLums(color2);
-                return (Math.Round(
-                            (Math.Max(luminance1, luminance2) + 0.05) / (Math.Min(luminance1, luminance2) + 0.05) * 10,
-                            1) / 10).ToString(CultureInfo.InvariantCulture);
+                return Math.Round(
+                           (Math.Max(luminance1, luminance2) + 0.05) /
+                           (Math.Min(luminance1, luminance2) + 0.05) * 10,
+                           1) / 10 + ":1";
             }
             catch
             {
