@@ -273,5 +273,13 @@ namespace ColorContrastTester
         {
             Form_MouseDown(e);
         }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            const string tip = "press mouse button here and hover mouse cursor over area of evaluation";
+            var toolTip = new ToolTip();
+            toolTip.SetToolTip(color1btn, tip);
+            toolTip.SetToolTip(color2btn, tip);
+        }
     }
 }
