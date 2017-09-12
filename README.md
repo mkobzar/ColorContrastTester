@@ -9,4 +9,4 @@ tool to measure foreground/background colors to determine if combination meets o
 - Apple Human Interface Guidelines, see "Use sufficient color contrast ratios" section https://developer.apple.com/ios/human-interface-guidelines/visual-design/color/
 
 # Known Issues:
-- This tool will not capture correct coordinates if your Display Settings are not default and larger than "Change the size of test, apps, and other items: 100%" 
+- This tool will not capture correct coordinates if your Display Settings are not default (set other than "Change the size of text, apps, and other items: 100%") 
