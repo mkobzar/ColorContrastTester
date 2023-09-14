@@ -6,7 +6,7 @@ tool to measure foreground/background colors to determine if combination meets o
 - Online Color Contrast Checker http://webaim.org/resources/contrastchecker/
 - Relative Luminance Formula https://www.w3.org/TR/WCAG20/#relativeluminancedef and 
 - Relative Luminance Definition https://www.w3.org/TR/WCAG20/relative-luminance.xml
-- Apple Human Interface Guidelines, see "Use sufficient color contrast ratios" section https://developer.apple.com/ios/human-interface-guidelines/visual-design/color/
+- Apple Human Interface Guidelines, Accessibility https://developer.apple.com/design/human-interface-guidelines/accessibility
 
 # Known Issues:
-- This tool will not capture correct coordinates if your Display Settings are not default (set other than "Change the size of text, apps, and other items: 100%") 
+- If this tool cannot pick pixels up, set your Display Scaly and Layout to 100%

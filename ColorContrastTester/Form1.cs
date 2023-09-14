@@ -1,7 +1,6 @@
 ﻿using System;
 using System.Drawing;
 using System.Drawing.Imaging;
-using System.Globalization;
 using System.Runtime.InteropServices;
 using System.Windows.Forms;
 
@@ -231,7 +230,7 @@ namespace ColorContrastTester
             }
         }
 
-        private static double GetLums(string colorHex)
+        private double GetLums(string colorHex)
         {
             colorHex = colorHex.TrimStart('#');
             if (string.IsNullOrEmpty(colorHex) || colorHex.Length != 6)
